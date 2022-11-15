@@ -23,21 +23,13 @@ In 2022, Gainsforth, Ofengenden, and Yu worked on updating Stoichiometry to the 
 
 
 ## Statement of Need
-Allows a researcher to convert elemental quantification to meaningful conclusions about mineral phases through python scripts. Researchers will then be able to reproduce results on multiple inputs using the same python scripts. Stoichiometry Fitter produces standard outputs for various minerals including Ternary diagrams, ... etc(((MORE EXAMPLES)), allowing and improving reproducibility for Geologists and researchers on different elemental compositions. Stoichiometry is and easy to use program that simplifies the understanding process for researchers interested in the analysis of a specified mineral. In the case where the researcher is unsure of the mineral that is composed by inputs of element quantifications, Ofengenden and Yu have integrated QMin ((((INSERT FOOTNOTE)))))) into Stoichiometry Fitter. This allows for 
-
-3) Produces standard outputs for various minerals including ternary diagrams, etc. improving reproducibility between researchers.
-
-4) Eases understanding mineral systems that are new to the researcher and how that leads into Qmin.
-
-5) Allows removing common artifacts from elemental quantifications.
+Allows a researcher to convert elemental quantification to meaningful conclusions about mineral phases through python scripts. Researchers will then be able to reproduce results on multiple inputs using the same python scripts. Stoichiometry Fitter produces standard outputs for various minerals including Ternary diagrams, ... etc(((MORE EXAMPLES)), allowing and improving reproducibility for Geologists and researchers on different elemental compositions. Stoichiometry Fitter also allows the user to remove common artifacts from these quantifications simplifiying the understanding process and easing the procedure of mineral analysis.Stoichiometry Fitter is an easy to use program that provides researchers with detailed analyses of a specified mineral. In the case where the researcher is unsure of the mineral that is composed by inputs of element quantifications, Ofengenden and Yu have integrated QMin ((((INSERT FOOTNOTE)))))) into Stoichiometry Fitter. This allows for researchers to identify and classify new or uknown minerals. 
 
 ## State of Field
-How will this software compare to others or other packages in the field
+Effeciency of Stoichiomtery Fitter over google spreadsheets and excel.
 
 ## Mathematics
 Chemistry Calculations:
-
-
 
 ## Citations, Mentions, & References
 
