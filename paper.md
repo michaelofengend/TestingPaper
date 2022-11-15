@@ -1,20 +1,5 @@
 ---
-title: StoichiometryFitter: An Interactive WebApp for Mineral Analysis
-tags:
-  - Python
-authors:
-  - name: Zack Gainsforth
-    affiliation: 1
-  - name: Michael Ofengenden
-    affiliation: 1
-  - name: Zhenbang Yu
-    affiliation: 1
-affiliations:
- - name: Space Sciences Laboratory, University of California Berkeley, 7 Gauss Way, USA
-   index: 1
-
-date: 15 November 2022
-bibliography: paper.bib
+title: StoichiometryFitter
 
 # Summary
 
