@@ -23,7 +23,7 @@ In 2022, Gainsforth, Ofengenden, and Yu worked on updating Stoichiometry to the 
 
 
 ## Statement of Need
-Allows a researcher to convert elemental quantification to meaningful conclusions about mineral phases through python scripts. Researchers will then be able to reproduce results on multiple inputs using the same python scripts. Stoichiometry Fitter produces standard outputs for various minerals including Ternary diagrams, ... etc(((MORE EXAMPLES)), allowing and improving reproducibility for Geologists and researchers on different elemental compositions. Stoichiometry is and easy to use program that simplifies and 
+Allows a researcher to convert elemental quantification to meaningful conclusions about mineral phases through python scripts. Researchers will then be able to reproduce results on multiple inputs using the same python scripts. Stoichiometry Fitter produces standard outputs for various minerals including Ternary diagrams, ... etc(((MORE EXAMPLES)), allowing and improving reproducibility for Geologists and researchers on different elemental compositions. Stoichiometry is and easy to use program that simplifies the understanding process for researchers interested in the analysis of a specified mineral. In the case where the researcher is unsure of the mineral that is composed by inputs of element quantifications, Ofengenden and Yu have integrated QMin ((((INSERT FOOTNOTE)))))) into Stoichiometry Fitter. This allows for 
 
 3) Produces standard outputs for various minerals including ternary diagrams, etc. improving reproducibility between researchers.
 
