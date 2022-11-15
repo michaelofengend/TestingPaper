@@ -31,7 +31,7 @@ Stoichiometry Fitter allows for the process of analyzing minerals from element q
 ## Mathematics & Figures
 Chemistry Calculations:
 
-![image info](PNGimage.jpg)
+![](./PNGimage.jpg =100x20)
 ## Citations, Mentions, & References
 
 Citations to entries in paper.bib should be in
