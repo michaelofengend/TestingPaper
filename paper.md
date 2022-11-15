@@ -54,8 +54,3 @@ For a quick reference, the following citation commands can be used:
 - `@author:2001`  ->  "Author et al. (2001)"
 - `[@author:2001]` -> "(Author et al., 2001)"
 - `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
-
-# Figures??
-
-# Acknowledgements
-We acknowledge idea and project from Zack Gainsforth.
