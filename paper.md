@@ -1,5 +1,5 @@
 ---
-title: 'StoichiometryFitter: An Interactive WebApp for Mineral Analysis'
+Title: 'StoichiometryFitter: An Interactive WebApp for Mineral Analysis'
 tags:
   - Python
 authors:
