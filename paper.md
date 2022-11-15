@@ -1,11 +1,11 @@
 ---
-### title: StoichiometryFitter
+# title: StoichiometryFitter
 
-# Summary
+## Summary
 
 
 
-# Statement of Need
+## Statement of Need
 1) Allows a researcher to convert elemental quants to meaningful conclusions about mineral phases through python scripts.
 
 2) Reproducibility because using the same scripts.
@@ -16,15 +16,15 @@
 
 5) Allows removing common artifacts from elemental quantifications.
 
-# State of Field
+## State of Field
 How will this software compare to others or other packages in the field
 
-# Mathematics
+## Mathematics
 Chemistry Calculations:
 
 
 
-# Citations, Mentions, & References
+## Citations, Mentions, & References
 
 Citations to entries in paper.bib should be in
 [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
