@@ -1,5 +1,5 @@
 ---
-title: StoichiometryFitter
+### title: StoichiometryFitter
 
 # Summary
 
