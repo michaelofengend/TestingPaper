@@ -20,8 +20,7 @@ bibliography: paper.bib
 
 
 
-# Statement of need
-
+# Statement of Need
 1) Allows a researcher to convert elemental quants to meaningful conclusions about mineral phases through python scripts.
 
 2) Reproducibility because using the same scripts.
@@ -34,7 +33,6 @@ bibliography: paper.bib
 
 
 # Mathematics
-
 Chemistry Calculations:
 
 
@@ -46,11 +44,3 @@ Chemistry Calculations:
 Citations to entries in paper.bib should be in
 [rMarkdown](http://rmarkdown.rstudio.com/authoring_bibliographies_and_citations.html)
 format.
-
-If you want to cite a software repository URL (e.g. something on GitHub without a preferred
-citation) then you can do it with the example BibTeX entry below for @fidgit.
-
-For a quick reference, the following citation commands can be used:
-- `@author:2001`  ->  "Author et al. (2001)"
-- `[@author:2001]` -> "(Author et al., 2001)"
-- `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
