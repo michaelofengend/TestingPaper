@@ -18,14 +18,12 @@ date: 15 November 2022
 bibliography: paper.bib
 
 ## Summary
-In 2016, Zack Gainsforth created a GUI for fitting solids and analyzing mineral phases. Gainsforth developed a software tool for the analysis of multi-phase quantification of materials. One would provide the quantification of elements as input in the form of \textit{atomic \%, elemental weight \% oxide weight \% (with cation oxidation states), or as raw counts of TEM measurements.} \textcolor{red}{ More about what you get from the results of stoichiometry fitter other than 'analysis'.} When using raw counts, one can also use Stoichiometry Fitter to apply a set of k-factors, a thickness correction, and a detector correction. More of the use cases of the 2016 version are listed in Gainsforth's Previous paper \textcolor{red}{ insert footnote}. 
-In 2022, Gainsforth, Ofengenden, and Yu worked on updating Stoichiometry to the current version, including updating to the latest python version, providing more capabilities, adding more phases, and including Qmin \textcolor{red}{ insert footnote} a mineral recognition webapp. Then by turning it into a WebApp, our hope is that this tool will be more readily available to the public and will help make the research of geologists, minerologists, and chemists alike, more efficient and easy when exploring new minerals. 
+In 2016, Zack Gainsforth created a GUI for fitting solids and analyzing mineral phases. Gainsforth developed a software tool for the analysis of multi-phase quantification of materials. One would provide the quantification of elements as input in the form of atomic %, elemental weight % oxide weight % (with cation oxidation states), or as raw counts of TEM measurements.((((((((((((( More about what you get from the results of stoichiometry fitter other than 'analysis'.)))))))))))))))) When using raw counts, one can also use Stoichiometry Fitter to apply a set of k-factors, a thickness correction, and a detector correction. More of the use cases of the 2016 version are listed in Gainsforth's Previous paper(((((FOOTNOTE/CITATION)))))). 
+In 2022, Gainsforth, Ofengenden, and Yu worked on updating Stoichiometry to the current version, including updating to the latest python version, providing more capabilities, adding more phases, and including Qmin (((((((((INSERT FOOTNOTE))))))))) a mineral recognition webapp. Then by turning it into a WebApp, our hope is that this tool will be more readily available to the public and will help make the research of geologists, minerologists, and chemists alike, more efficient and easy when exploring new minerals. 
 
 
 ## Statement of Need
-1) Allows a researcher to convert elemental quants to meaningful conclusions about mineral phases through python scripts.
-
-2) Reproducibility because using the same scripts.
+Allows a researcher to convert elemental quantification to meaningful conclusions about mineral phases through python scripts. Researchers will then be able to reproduce results on multiple inputs using the same python scripts. Stoichiometry Fitter produces standard outputs for various minerals including Ternary diagrams, ... etc(((MORE EXAMPLES)), allowing and improving reproducibility for Geologists and researchers on different elemental compositions. Stoichiometry is and easy to use program that simplifies and 
 
 3) Produces standard outputs for various minerals including ternary diagrams, etc. improving reproducibility between researchers.
 
