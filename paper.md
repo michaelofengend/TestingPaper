@@ -31,12 +31,12 @@ bibliography: paper.bib
 
 5) Allows removing common artifacts from elemental quantifications.
 
+# State of Field
+How will this software compare to others or other packages in the field
 
 # Mathematics
 Chemistry Calculations:
 
-
-# State of Field
 
 
 # Citations, Mentions, & References
