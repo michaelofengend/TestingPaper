@@ -1,5 +1,4 @@
 ---
-# Stoichiometry Fitter: An Interactive WebApp for Mineral Analysis
 title: StoichiometryFitter: An Interactive WebApp for Mineral Analysis
 tags:
   - Python
