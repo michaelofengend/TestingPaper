@@ -28,7 +28,7 @@ bibliography: paper.bib
 
 3) Produces standard outputs for various minerals including ternary diagrams, etc. improving reproducibility between researchers.
 
-4) Eases understanding mineral systems that are new to the researcher — lead into Qmin.
+4) Eases understanding mineral systems that are new to the researcher and how that leads into Qmin.
 
 5) Allows removing common artifacts from elemental quantifications.
 
@@ -36,6 +36,10 @@ bibliography: paper.bib
 # Mathematics
 
 Chemistry Calculations:
+
+
+# Description of Software and Comparison to other used-packages
+
 
 # Citations
 
@@ -53,16 +57,7 @@ For a quick reference, the following citation commands can be used:
 
 # Figures
 
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
-
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
-
 # Acknowledgements
-
-We acknowledge contributions from Brigitta Sipocz, Syrtis Major, and Semyeong
-Oh, and support from Kathryn Johnston during the genesis of this project.
+We acknowledge idea and project from Zack Gainsforth.
 
 # References
