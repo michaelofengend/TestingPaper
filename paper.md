@@ -7,68 +7,32 @@ authors:
     orcid: 0000-0000-0000-0000
     affiliation: "1" 
   - name: Michael Ofengenden
-    equal-contrib: true # (This is how you can denote equal contributions between multiple authors)
+    equal-contrib: true
     affiliation: "1"
   - name: Roger Yu
-    corresponding: true # (This is how to denote the corresponding author)
+    equal-contrib: true
     affiliation: "1"
 affiliations:
  - name: Space Sciences Laboratory, Univeristy of California Berkeley, 7 Gauss Way CA, USA
    index: 1
 date: 20 November 2022
 bibliography: paper.bib
-
 ---
 # Summary
 
-The forces on stars, galaxies, and dark matter under external gravitational
-fields lead to the dynamical evolution of structures in the universe. The orbits
-of these bodies are therefore key to understanding the formation, history, and
-future state of galaxies. The field of "galactic dynamics," which aims to model
-the gravitating components of galaxies to study their structure and evolution,
-is now well-established, commonly taught, and frequently used in astronomy.
-Aside from toy problems and demonstrations, the majority of problems require
-efficient numerical tools, many of which require the same base code (e.g., for
-performing numerical orbit integration).
+We created a GUI for fitting solids and analyzing mineral phases, in 2016. ((((Insert Paper by Gainsforth))))) developed a software tool for the analysis of multi-phase quantification of materials. One would provide the quantification of elements as input in the form of atomic %, elemental weight % oxide weight % (with cation oxidation states), or as raw counts of TEM measurements. When using raw counts, one can also use Stoichiometry Fitter to apply a set of k-factors, a thickness correction, and a detector correction. More of the use cases of the 2016 version are listed in Gainsforth's Previous paper(((((FOOTNOTE/CITATION))))). In 2022, we worked on updating Stoichiometry to the current version, including updating to the latest python version, providing more capabilities, adding more phases, and including Qmin (((((((((INSERT FOOTNOTE))))))))) a mineral recognition webapp. Then by turning it into a WebApp, our hope is that this tool will be more readily available to the public and will help make the research of geologists, minerologists, and chemists alike, more efficient and easy when exploring new minerals.
 
 # Statement of need
 
-`Gala` is an Astropy-affiliated Python package for galactic dynamics. Python
-enables wrapping low-level languages (e.g., C) for speed without losing
-flexibility or ease-of-use in the user-interface. The API for `Gala` was
-designed to provide a class-based and user-friendly interface to fast (C or
-Cython-optimized) implementations of common operations such as gravitational
-potential and force evaluation, orbit integration, dynamical transformations,
-and chaos indicators for nonlinear dynamics. `Gala` also relies heavily on and
-interfaces well with the implementations of physical units and astronomical
-coordinate systems in the `Astropy` package [@astropy] (`astropy.units` and
-`astropy.coordinates`).
+Stoichiometry Fitter allows a researcher to convert elemental quantification to meaningful conclusions about mineral phases through python scripts. Researchers will then be able to reproduce results on multiple inputs using the same python scripts. The program produces standard outputs for various minerals including Ternary diagrams, ... etc(((MORE EXAMPLES)), allowing and improving reproducibility for Geologists and researchers on different elemental compositions. Stoichiometry Fitter also allows the user to remove common artifacts from these quantifications simplifiying the understanding process and easing the procedure of mineral analysis.Stoichiometry Fitter is an easy to use program that provides researchers with detailed analyses of a specified mineral. In the case where the researcher is unsure of the mineral that is composed by inputs of element quantifications, our team has integrated QMin ((((INSERT FOOTNOTE)))))) into Stoichiometry Fitter. This allows for researchers to identify and classify new or uknown minerals.
 
-`Gala` was designed to be used by both astronomical researchers and by
-students in courses on gravitational dynamics or astronomy. It has already been
-used in a number of scientific publications [@Pearson:2017] and has also been
-used in graduate courses on Galactic dynamics to, e.g., provide interactive
-visualizations of textbook material [@Binney:2008]. The combination of speed,
-design, and support for Astropy functionality in `Gala` will enable exciting
-scientific explorations of forthcoming data releases from the *Gaia* mission
-[@gaia] by students and experts alike.
+# State of Field
+Stoichiometry Fitter allows for the process of analyzing minerals from element quantifications in a much more effecient scale than other programs researchers have used previously for the same kind of analysis. In field of research, many use spreadsheets or excel to write csv files or analyze elemental composition from their inputs. This can be slow and quite in-effecient. Stoichiometry Fitter resolves this issue by presenting a scalable program that can analyze element quantifications from a direct input or a large text file. The program can then output multi-dimensional analysis. Along with the visuals and other integrated features of Stoichiometry Fitter, it allows for much more thorough and faster analysis than many other computational spreadsheet programs.
 
-# Mathematics
+# Math & Figures
 
-Single dollars ($) are required for inline mathematics e.g. $f(x) = e^{\pi/x}$
-
-Double dollars make self-standing equations:
-
-$$\Theta(x) = \left\{\begin{array}{l}
-0\textrm{ if } x < 0\cr
-1\textrm{ else}
-\end{array}\right.$$
-
-You can also use plain \LaTeX for equations
-\begin{equation}\label{eq:fourier}
-\hat f(\omega) = \int_{-\infty}^{\infty} f(x) e^{i\omega x} dx
-\end{equation}
-and refer to \autoref{eq:fourier} from text.
+Chemistry Calculations:
+<img src="PNGimage.jpg" width="700" height="350">
 
 # Citations
 
@@ -83,15 +47,6 @@ For a quick reference, the following citation commands can be used:
 - `@author:2001`  ->  "Author et al. (2001)"
 - `[@author:2001]` -> "(Author et al., 2001)"
 - `[@author1:2001; @author2:2001]` -> "(Author1 et al., 2001; Author2 et al., 2002)"
-
-# Figures
-
-Figures can be included like this:
-![Caption for example figure.\label{fig:example}](figure.png)
-and referenced from text using \autoref{fig:example}.
-
-Figure sizes can be customized by adding an optional second parameter:
-![Caption for example figure.](figure.png){ width=20% }
 
 # Acknowledgements
 
