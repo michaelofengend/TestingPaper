@@ -13,7 +13,7 @@ authors:
     corresponding: true # (This is how to denote the corresponding author)
     affiliation: "1"
 affiliations:
- - name: Space Sciences Laboratory,7 Gauss Way, Univeristy of California Berkeley, CA USA
+ - name: Space Sciences Laboratory, Univeristy of California Berkeley, 7 Gauss Way CA, USA
    index: 1
 date: 20 November 2022
 bibliography: paper.bib
