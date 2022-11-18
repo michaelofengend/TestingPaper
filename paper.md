@@ -31,8 +31,10 @@ Stoichiometry Fitter allows for the process of analyzing minerals from element q
 
 # Math & Figures
 
+![View of WebApp.\label{fig:example}](image.png)
+and referenced from text using \autoref{fig:example}.
+
 Chemistry Calculations:
-<img src="PNGimage.jpg" width="700" height="350">
 
 # Citations
 
