@@ -17,7 +17,13 @@ affiliations:
    index: 1
 date: 20 November 2022
 bibliography: paper.bib
+
+# Optional fields if submitting to a AAS journal too, see this blog post:
+# https://blog.joss.theoj.org/2018/12/a-new-collaboration-with-aas-publishing
+aas-doi: 10.3847/xxxxx <- update this with the DOI from AAS once you know it.
+aas-journal: Astrophysical Journal <- The name of the AAS journal.
 ---
+
 # Summary
 We present an updated software tool[@Gainsforth:2016] for the quantification and analysis of materials. This app is determines sample composition from elements input in the form of atomic %, elemental weight %, oxide weight % (with cation oxidation states), or as raw counts. Raw counts currently support TEM and XRF measurements using k-factors. Planned future work will support SEM geometries. This app is provided as a web app at (link) and can be run locally. Tutorial video avaliable here__. We hope that Stoichiometry Fitter will be more accessible to the public now and will help geologists, mineralogists, and chemists alike, making research more efficient and easy when exploring new minerals. Stoichiometry Fitter also takes in account thickness and absorption correction for more accurate results analysis. (more of use case thinkness correction)
 
@@ -41,12 +47,9 @@ and referenced from text using \autoref{fig:example}.
 
 Chemistry Calculations:
 
-# Citations
-pandoc --citeproc paper.bib
-
 # References
 
-- name: Gainsforth, Z. “Stoichiometry Fitter, a GUI for Fitting Solid Solutions and Analyzing Mineral Phases: Microscopy and Microanalysis.” Cambridge Core, Cambridge University Press, 25 July 2016, https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/stoichiometry-fitter-a-gui-for-fitting-solid-solutions-and-analyzing-mineral-phases/84C98F55BAE56F9BAED27F1681B661C9. 
+- Gainsforth, Z. “Stoichiometry Fitter, a GUI for Fitting Solid Solutions and Analyzing Mineral Phases: Microscopy and Microanalysis.” Cambridge Core, Cambridge University Press, 25 July 2016, https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/stoichiometry-fitter-a-gui-for-fitting-solid-solutions-and-analyzing-mineral-phases/84C98F55BAE56F9BAED27F1681B661C9. 
   index: 1
-- name: Silva, Guilherme Ferreira, et al. “Qmin: A Machine Learning-Based Application for Mineral Chemistry Data Processing and Analysis.” 2021, https://doi.org/10.21203/rs.3.rs-629516/v1. 
+- Silva, Guilherme Ferreira, et al. “Qmin: A Machine Learning-Based Application for Mineral Chemistry Data Processing and Analysis.” 2021, https://doi.org/10.21203/rs.3.rs-629516/v1. 
   index: 2
