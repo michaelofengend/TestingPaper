@@ -4,7 +4,6 @@ tags:
   - Python
 authors:
   - name: Zack Gainsforth
-    orcid: 0000-0000-0000-0000
     affiliation: "1" 
   - name: Michael Ofengenden
     equal-contrib: true
