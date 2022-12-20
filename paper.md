@@ -48,7 +48,3 @@ Chemistry Calculations:
 
 # References
 
-- Gainsforth, Z. “Stoichiometry Fitter, a GUI for Fitting Solid Solutions and Analyzing Mineral Phases: Microscopy and Microanalysis.” Cambridge Core, Cambridge University Press, 25 July 2016, https://www.cambridge.org/core/journals/microscopy-and-microanalysis/article/stoichiometry-fitter-a-gui-for-fitting-solid-solutions-and-analyzing-mineral-phases/84C98F55BAE56F9BAED27F1681B661C9. 
-  index: 1
-- Silva, Guilherme Ferreira, et al. “Qmin: A Machine Learning-Based Application for Mineral Chemistry Data Processing and Analysis.” 2021, https://doi.org/10.21203/rs.3.rs-629516/v1. 
-  index: 2
